@@ -1,4 +1,4 @@
-=== Register IP ===
+=== Register IP - Multiste ===
 Contributors: Ipstenu, johnnywhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0

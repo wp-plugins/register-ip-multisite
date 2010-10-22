@@ -1,6 +1,6 @@
 === Register IP ===
 Contributors: johnnywhite2007, ipstenu
-Tags: IP, log, register
+Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0
 Tested up to: 3.0.1
 Stable tag: 0.1

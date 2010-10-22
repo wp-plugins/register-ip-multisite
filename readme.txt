@@ -5,7 +5,7 @@ Requires at least: 3.0
 Tested up to: 3.0.1
 Stable tag: 0.1
 
-When a new user registers, their IP address is logged and shows in the users menu as well as in the user's profile.
+When a new user registers, their IP address is logged for the admins.
 
 == Description ==
 
@@ -31,6 +31,9 @@ OR
 
 = Why does some users say "None Recorded"? =
 This is because the user was registered before the plugin was installed and/or activated.
+
+= Who can see the IP? =
+Admins and Super Admins. 
 
 = Does this work on MultiSite? =
 Yep! I'd stick it in the `mu-plugins` folder, personally, so it's active no matter where you try and view the users list, but you don't have to.

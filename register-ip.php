@@ -2,7 +2,7 @@
 /*
 Plugin Name: Register IP - MultiSite
 Version: 0.1
-Description: Logs the IP of the user when they register a new account. View the signup IP by clicking on the Users menu (single site), the Super Admin->Users menu (MultiSite) or by editing their profile.
+Description: Logs the IP of the user when they register a new account.
 Author: Mika Epstein, Johnny White
 Author URI: http://ipstenu.org
 Plugin URI: http://code.ipstenu.org/register-ip-ms

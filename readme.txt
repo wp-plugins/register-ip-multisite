@@ -1,5 +1,5 @@
 === Register IP ===
-Contributors: johnnywhite2007, ipstenu
+Contributors: Ipstenu, johnnywhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0
 Tested up to: 3.0.1
@@ -34,6 +34,9 @@ This is because the user was registered before the plugin was installed and/or a
 
 = Does this work on MultiSite? =
 Yep! I'd stick it in the `mu-plugins` folder, personally, so it's active no matter where you try and view the users list, but you don't have to.
+
+= If this works on SingleSite why the name? =
+There's already a plugin called "Register IP", but it didn't work on MultiSite.  I was originally just going to make this a MultiSite-only install, but then I thought 'Why not just go full bore!'  Of course, I decided that AFTER I requested the name. So you can laugh.
 
 = Does this work with BuddyPress? =
 It works with BuddyPress on Multisite, so I presume single-site as well. If not, let me know!

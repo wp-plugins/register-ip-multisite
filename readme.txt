@@ -16,7 +16,7 @@ When a user registers, their IP is logged in the wp_usermeta under the signup_ip
 == Installation ==
 
 = Single Site =
-1. Upload the `register-ip-ms` folder to the `/wp-content/plugins/` directory
+1. Upload the `register-ip-multisite` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 = MultiSite = 
@@ -24,7 +24,7 @@ When a user registers, their IP is logged in the wp_usermeta under the signup_ip
 
 OR
 
-1. Upload the `register-ip-ms` folder to the `/wp-content/plugins/` directory
+1. Upload the `register-ip-multisite` folder to the `/wp-content/plugins/` directory
 2. Network Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
@@ -68,4 +68,3 @@ See http://core.trac.wordpress.org/ticket/14562 for tech details.
 * BuddyPress Tested
 
 == Upgrade Notice ==
-N/A

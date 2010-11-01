@@ -11,7 +11,11 @@ When a new user registers, their IP address is logged for the admins.
 
 Spam is one thing, but trolls and sock puppets are another.  Sometimes people just decide they're going to be jerks and create multiple accounts with which to harass your honest users.  This plugin helps you fight back by logging the IP address used at the time of creation.
 
-When a user registers, their IP is logged in the wp_usermeta under the signup_ip key.  Log into your WP install as an Admin and you can look at their profile or the users table to see what it is. For security purposes their IP is not displayed to them when they see their profile.
+When a user registers, their IP is logged in the `wp_usermeta` under the signup_ip key.  Log into your WP install as an Admin and you can look at their profile or the users table to see what it is. For security purposes their IP is not displayed to them when they see their profile.
+
+**Misc**
+* [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973)
+* [Plugin Site](http://code.ipstenu.org/register-ip-ms/)
 
 == Installation ==
 

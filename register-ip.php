@@ -62,7 +62,7 @@ function show_ip_on_profile() {
 
 // Add in a column header
 function ripm_ip($column_headers) {
-    $column_headers['ripm_ip'] = '.__(IP Address, 'ripm_ip').';
+    $column_headers['ripm_ip'] = __('IP Address', 'ripm_ip');
     return $column_headers;
 }
 

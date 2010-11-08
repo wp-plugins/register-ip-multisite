@@ -1,14 +1,14 @@
-# Translation of the WordPress plugin   by .
+# Translation of the WordPress plugin Register IP Multisite by Mika Epsteni.
 # Copyright (C) 2010 
-# This file is distributed under the same license as the  package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+# This file is distributed under the same license as the Register IP Multisite package.
+# FIRST AUTHOR ipstenu@ipstenu.org, 2010.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version:  \n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/register-ip-multisite\n"
-"POT-Creation-Date: 2010-11-08 14:53+0000\n"
+"POT-Creation-Date: 2010-11-08 15:53+0000\n"
 "PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,10 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: register-ip.php:74
+#: register-ip.php:55
+msgid "Signup IP Address"
+msgstr ""
+
+#: register-ip.php:77
 msgid "None Recorded"
 msgstr ""
 
-#: register-ip.php:93
+#: register-ip.php:96
 msgid "None recorded"
 msgstr ""

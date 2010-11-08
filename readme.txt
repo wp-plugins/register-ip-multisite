@@ -3,7 +3,7 @@ Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 When a new user registers, their IP address is logged for the admins.
 
@@ -66,6 +66,10 @@ See http://core.trac.wordpress.org/ticket/14562 for tech details.
 2. Multisite (Super Admin -> Users menu)
 
 == Changelog ==
+
+= 0.2 (08 Nov 2010) =
+* Internationalization
+* Generated POT file so you could do what you want!
 
 = 0.1 =
 * Initial fork

@@ -3,7 +3,7 @@ Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 When a new user registers, their IP address is logged for the admins.
 

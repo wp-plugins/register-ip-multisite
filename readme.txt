@@ -14,6 +14,7 @@ Spam is one thing, but trolls and sock puppets are another.  Sometimes people ju
 When a user registers, their IP is logged in the `wp_usermeta` under the signup_ip key.  Log into your WP install as an Admin and you can look at their profile or the users table to see what it is. For security purposes their IP is not displayed to them when they see their profile.
 
 **Misc**
+
 * [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973)
 * [Plugin Site](http://code.ipstenu.org/register-ip-ms/)
 
@@ -65,6 +66,10 @@ See http://core.trac.wordpress.org/ticket/14562 for tech details.
 2. Multisite (Super Admin -> Users menu)
 
 == Changelog ==
+
+= 0.2 (08 Nov 2010) =
+* Internationalization
+* Generated POT file so you could do what you want!
 
 = 0.1 =
 * Initial fork

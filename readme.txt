@@ -3,7 +3,7 @@ Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 0.2
+Stable tag: 0.2.1
 
 When a new user registers, their IP address is logged for the admins.
 
@@ -67,6 +67,9 @@ See http://core.trac.wordpress.org/ticket/14562 for tech details.
 
 == Changelog ==
 
+= 0.2.1 (08 Nov 2010) =
+* Critical Bugfix!  Typo 'wiped out' old IPs listed!
+
 = 0.2 (08 Nov 2010) =
 * Internationalization
 * Generated POT file so you could do what you want!
@@ -77,3 +80,4 @@ See http://core.trac.wordpress.org/ticket/14562 for tech details.
 * BuddyPress Tested
 
 == Upgrade Notice ==
+Massive typo in 0.2 caused all saved IPs to 'vanish'!  This has been fixed in 0.2.1 and I am SO sorry!

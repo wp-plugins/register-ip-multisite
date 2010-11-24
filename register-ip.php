@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Register IP - MultiSite
-Version: 0.2.1
+Version: 1.0
 Description: Logs the IP of the user when they register a new account.
 Author: Mika Epstein, Johnny White
 Author URI: http://ipstenu.org
@@ -30,7 +30,7 @@ load_plugin_textdomain('signup_ip', false, dirname(plugin_basename(__FILE__)) . 
 /* Version Check - This only works on 3.x branch! */
 global $wp_version;
 
-$exit_msg = 'Register IP requires WordPress 3.0 or newer.';
+$exit_msg = 'This plugin requires WordPress 3.0 or newer.';
 
 if(version_compare($wp_version, "3.0", "<"))
 {
@@ -66,8 +66,11 @@ function signup_ip($column_headers) {
     return $column_headers;
 }
 
-// Formatting output for Single Site. Only called if Multisite is disabled.
-function ripms_single_columns($value, $column_name, $user_id) {
+// In WordPress 3.0 - Formatting output for Single Site. Only called if Multisite is disabled.
+// In WordPress 3.1+ - Formatting output for EVERYTHING
+// See http://core.trac.wordpress.org/ticket/14562 for more info
+
+function ripms_columns($value, $column_name, $user_id) {
         if ( $column_name == 'signup_ip' ) {
                 $ip = get_user_meta($user_id, 'signup_ip', true);
                 if ($ip != ""){
@@ -82,10 +85,7 @@ function ripms_single_columns($value, $column_name, $user_id) {
 }
 
 
-// Formatting output for MultiSite. Only called if Multisite is enabled.
-// See http://core.trac.wordpress.org/ticket/14562 for more info
-// Change manage_users_custom_column to ms_manage_users_custom_column when the patch is implimented
-
+// Formatting output for MultiSite. Only called if Multisite is enabled - This is for WP 3.0 and 3.0.1
 function ripms_multi_columns($column_name, $user_id ) {
         if ( $column_name == 'signup_ip' ) {
                 $ip = get_user_meta($user_id, 'signup_ip', true);
@@ -100,13 +100,18 @@ function ripms_multi_columns($column_name, $user_id ) {
 }
 
 if ( is_multisite() ) {
-	// Adding in filters and actions for Multi Site installs
-	add_filter('wpmu_users_columns', 'signup_ip');
-	add_action('manage_users_custom_column',  'ripms_multi_columns', 10, 2);
+        // Adding in filters and actions for Multi Site installs
+        add_filter('wpmu_users_columns', 'signup_ip');
+        if(version_compare($wp_version, "3.1", "<")) {
+         add_action('manage_users_custom_column',  'ripms_multi_columns', 10, 2);
+        }
+        if(version_compare($wp_version, "3.0.1", ">")) {
+         add_action('manage_users_custom_column',  'ripms_columns', 10, 3);
+        }
 } else {
-	// Adding in filters and actions for Single Site installs
-	add_filter('manage_users_columns', 'signup_ip');
-	add_action('manage_users_custom_column',  'ripms_single_columns', 10, 3);
+        // Adding in filters and actions for Single Site installs
+        add_filter('manage_users_columns', 'signup_ip');
+        add_action('manage_users_custom_column',  'ripms_columns', 10, 3);
 }
 
 ?>

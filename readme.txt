@@ -2,8 +2,8 @@
 Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0
-Tested up to: 3.0.1
-Stable tag: 0.2.1
+Tested up to: 3.1
+Stable tag: 1.0
 
 When a new user registers, their IP address is logged for the admins.
 
@@ -55,17 +55,15 @@ Sorry about that, but that's what happens when you add in more columns.
 = What's the difference between MultiSite and SingleSite installs? =
 On multisite only the Network admins who have access to Network Admin -> Users can see the IPs on the user list.
 
-This is due to issues with how WordPress handles the filters and some lingering inconsistancy between MultiSite and regular WordPress. I had to duplicate code and put in an 'if MultiSite...' feature, which works, but if you're a regular Admin, you can ONLY see the user IP on the profile page.
-
-Now, when they fix core, I expect this plugin to BREAK, but it'll be an easy enough fix, and then I'll be able to have it work for BOTH Users -> Users and Network Admin -> Users.
-
-See http://core.trac.wordpress.org/ticket/14562 for tech details.
 
 == Screenshots ==
 1. Single Site (regular users menu)
 2. Multisite (Network Admin -> Users menu)
 
 == Changelog ==
+
+= 1.0 (24 Nov 2010) =
+* Forward and backward compatibility with WordPress 3.1! Yay!
 
 = 0.2.1 (08 Nov 2010) =
 * Critical Bugfix!  Typo 'wiped out' old IPs listed!

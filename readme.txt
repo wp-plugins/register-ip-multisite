@@ -34,11 +34,11 @@ OR
 
 == Frequently Asked Questions ==
 
-= Why does some users say "None Recorded"? =
+= Why do some users say "None Recorded"? =
 This is because the user was registered before the plugin was installed and/or activated.
 
 = Who can see the IP? =
-Admins and Super Admins. 
+Admins and Network Admins. 
 
 = Does this work on MultiSite? =
 Yep! I'd stick it in the `mu-plugins` folder, personally, so it's active no matter where you try and view the users list, but you don't have to.
@@ -53,17 +53,17 @@ It works with BuddyPress on Multisite, so I presume single-site as well. If not,
 Sorry about that, but that's what happens when you add in more columns.
 
 = What's the difference between MultiSite and SingleSite installs? =
-On multisite only the super admins who have access to Super Admin -> Users can see the IPs on the user list.
+On multisite only the Network admins who have access to Network Admin -> Users can see the IPs on the user list.
 
 This is due to issues with how WordPress handles the filters and some lingering inconsistancy between MultiSite and regular WordPress. I had to duplicate code and put in an 'if MultiSite...' feature, which works, but if you're a regular Admin, you can ONLY see the user IP on the profile page.
 
-Now, when they fix core, I expect this plugin to BREAK, but it'll be an easy enough fix, and then I'll be able to have it work for BOTH Users -> Users and Super Admin -> Users.
+Now, when they fix core, I expect this plugin to BREAK, but it'll be an easy enough fix, and then I'll be able to have it work for BOTH Users -> Users and Network Admin -> Users.
 
 See http://core.trac.wordpress.org/ticket/14562 for tech details.
 
 == Screenshots ==
 1. Single Site (regular users menu)
-2. Multisite (Super Admin -> Users menu)
+2. Multisite (Network Admin -> Users menu)
 
 == Changelog ==
 

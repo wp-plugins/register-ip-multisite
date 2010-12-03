@@ -3,7 +3,7 @@ Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.0
 Tested up to: 3.1
-Stable tag: 1.0
+Stable tag: 1.1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
 
 When a new user registers, their IP address is logged for the admins.
@@ -62,6 +62,9 @@ On multisite only the Network admins who have access to Network Admin -> Users c
 2. Multisite (Network Admin -> Users menu)
 
 == Changelog ==
+
+= 1.1 (3 Dec 2010) =
+* Critical fix to correct issue with 3.0.2!
 
 = 1.0 (24 Nov 2010) =
 * Forward and backward compatibility with WordPress 3.1! Yay!

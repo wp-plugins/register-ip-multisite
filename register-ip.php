@@ -105,7 +105,7 @@ if ( is_multisite() ) {
         if(version_compare($wp_version, "3.1", "<")) {
          add_action('manage_users_custom_column',  'ripms_multi_columns', 10, 2);
         }
-        if(version_compare($wp_version, "3.0.1", ">")) {
+        if(version_compare($wp_version, "3.0.9", ">")) {
          add_action('manage_users_custom_column',  'ripms_columns', 10, 3);
         }
 } else {

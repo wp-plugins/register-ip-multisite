@@ -55,7 +55,7 @@ add_action('edit_user_profile', 'show_ip_on_profile');
 function show_ip_on_profile() {
         $user_id = $_GET['user_id'];
 ?>
-        <h3><?php _e('Signup IP Address',signup_ip); ?></h3>
+        <h3><?php _e('Signup IP Address', 'signup_ip'); ?></h3>
         <p style="text-indent:15px;"><?php
         $ip_address = get_user_meta($user_id, 'signup_ip', true);
         echo $ip_address;

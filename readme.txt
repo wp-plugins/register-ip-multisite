@@ -3,7 +3,7 @@ Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 1.1
+Stable tag: 1.2
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
 
 When a new user registers, their IP address is logged for the admins.

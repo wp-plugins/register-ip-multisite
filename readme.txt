@@ -1,8 +1,8 @@
 === Register IP - Multiste ===
 Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
-Requires at least: 3.0
-Tested up to: 3.2
+Requires at least: 3.1
+Tested up to: 3.2.1
 Stable tag: 1.1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
 
@@ -63,6 +63,9 @@ On multisite only the Network admins who have access to Network Admin -> Users c
 
 == Changelog ==
 
+= 1.2 (15 July 2011) =
+* Dropping support for 3.0.x 
+
 = 1.1 (3 Dec 2010) =
 * Critical fix to correct issue with 3.0.2!
 
@@ -82,4 +85,4 @@ On multisite only the Network admins who have access to Network Admin -> Users c
 * BuddyPress Tested
 
 == Upgrade Notice ==
-Massive typo in 0.2 caused all saved IPs to 'vanish'!  This has been fixed in 0.2.1 and I am SO sorry!
+If you are using 3.0.x DO NOT upgrade. I have made this plugin 3.1 and up only.  I strongly suggest you upgrade WordPress, though.

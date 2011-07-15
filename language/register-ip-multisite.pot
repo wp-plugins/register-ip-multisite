@@ -1,4 +1,4 @@
-# Translation of the WordPress plugin Register IP Multisite by Mika Epsteni.
+# Translation of the WordPress plugin Register IP Multisite by Mika Epstein.
 # Copyright (C) 2010 
 # This file is distributed under the same license as the Register IP Multisite package.
 # FIRST AUTHOR ipstenu@ipstenu.org, 2010.
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: register-ip.php:55
+#: register-ip.php:58
 msgid "Signup IP Address"
 msgstr ""
 

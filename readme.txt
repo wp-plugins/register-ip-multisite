@@ -42,7 +42,7 @@ This is because the user was registered before the plugin was installed and/or a
 Admins and Network Admins. 
 
 = Does this work on MultiSite? =
-Yep! I'd stick it in the `mu-plugins` folder, personally, so it's active no matter where you try and view the users list, but you don't have to.
+Yep! 
 
 = If this works on SingleSite why the name? =
 There's already a plugin called "Register IP", but it didn't work on MultiSite.  I was originally just going to make this a MultiSite-only install, but then I thought 'Why not just go full bore!'  Of course, I decided that AFTER I requested the name. So you can laugh.

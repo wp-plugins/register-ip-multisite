@@ -17,7 +17,7 @@ When a user registers, their IP is logged in the `wp_usermeta` under the signup_
 **Misc**
 
 * [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973)
-* [Plugin Site](http://code.ipstenu.org/register-ip-ms/)
+* [Plugin Site](http://tech.ipstenu.org/my-plugins/register-ip-ms/)
 
 == Installation ==
 

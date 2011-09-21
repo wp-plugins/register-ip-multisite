@@ -5,7 +5,7 @@ Version: 1.2
 Description: Logs the IP of the user when they register a new account.
 Author: Mika Epstein, Johnny White
 Author URI: http://ipstenu.org
-Plugin URI: http://code.ipstenu.org/register-ip-ms
+Plugin URI: http://tech.ipstenu.org/my-plugins/register-ip-ms
 
 Register IP Copyright (c) 2005 Johnny White
 Register IP - MultiSite (c) 2010 Mika Epstein

@@ -2,8 +2,8 @@
 Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu
 Requires at least: 3.1
-Tested up to: 3.3
-Stable tag: 1.3
+Tested up to: 3.3.1
+Stable tag: 1.4
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5227973
 
 When a new user registers, their IP address is logged for the admins.
@@ -48,6 +48,10 @@ On multisite only the Network admins who have access to Network Admin -> Users c
 2. Multisite (Network Admin -> Users menu)
 
 == Changelog ==
+
+= 1.4 =
+* 9 February 2012 by Ipstenu
+* Adding in German (translated by Robert @ TalkPress)
 
 = 1.3 =
 * 4 October 2011 by Ipstenu

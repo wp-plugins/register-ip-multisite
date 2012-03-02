@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Register IP - MultiSite
-Version: 1.4.1
+Version: 1.5
 Description: Logs the IP of the user when they register a new account.
 Author: Mika Epstein, Johnny White
 Author URI: http://ipstenu.org

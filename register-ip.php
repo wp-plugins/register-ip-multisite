@@ -93,4 +93,15 @@ if ( is_multisite() ) {
 
 // Adding in action, since it's the same for MS and SS.
 add_action('manage_users_custom_column',  'ripms_columns', 10, 3);		
+
+// donate link on manage plugin page
+add_filter('plugin_row_meta', 'ripms_donate_link', 10, 2);
+function ripms_donate_link($links, $file) {
+        if ($file == plugin_basename(__FILE__)) {
+                $donate_link = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ipstenu%40ipstenu%2eorg">Donate</a>';
+                $links[] = $donate_link;
+        }
+        return $links;
+}
+
 ?>

@@ -5,10 +5,10 @@ Version: 1.5
 Description: Logs the IP of the user when they register a new account.
 Author: Mika Epstein, Johnny White
 Author URI: http://ipstenu.org
-Plugin URI: http://tech.ipstenu.org/my-plugins/register-ip-ms
+Plugin URI: http://halfelf.org/plugins/register-ip-ms
 
 Register IP Copyright 2005 Johnny White
-Register IP - MultiSite Copyright 2010-11 Mika Epstein
+Register IP - MultiSite Copyright 2010-12 Mika Epstein
 
     This file is part of Register IP - MultiSite, a plugin for WordPress.
 

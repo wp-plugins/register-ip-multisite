@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Register IP - MultiSite
-Version: 1.5
+Version: 1.6
 Description: Logs the IP of the user when they register a new account.
 Author: Mika Epstein, Johnny White
 Author URI: http://ipstenu.org
@@ -95,10 +95,10 @@ if ( is_multisite() ) {
 add_action('manage_users_custom_column',  'ripms_columns', 10, 3);		
 
 // donate link on manage plugin page
-add_filter('plugin_row_meta', 'ripms_donate_link', 10, 2);
+add_filter('plugin_row_meta', 'ippy_ripms_donate_link', 10, 2);
 function ripms_donate_link($links, $file) {
         if ($file == plugin_basename(__FILE__)) {
-                $donate_link = '<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ipstenu%40ipstenu%2eorg">Donate</a>';
+                $donate_link = '<a href="https://www.wepay.com/donations/halfelf-wp">Donate</a>';
                 $links[] = $donate_link;
         }
         return $links;

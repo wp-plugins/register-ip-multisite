@@ -6,7 +6,7 @@ Tested up to: 3.4
 Stable tag: 1.5
 Donate link: https://www.wepay.com/donations/halfelf-wp
 
-When a new user registers, their IP address is logged for the admins.
+When a new user registers, their IP address is logged for the admins. Multisite and Single Site!
 
 == Description ==
 

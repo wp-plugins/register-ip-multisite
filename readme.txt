@@ -6,7 +6,7 @@ Tested up to: 4.0
 Stable tag: 1.6.1
 Donate link: https://store.halfelf.org/donate/
 
-When a new user registers, their IP address is logged for the admins. Multisite and Single Site!
+When a new user registers, their IP address is logged. Works on Multisite and Single Site!
 
 == Description ==
 

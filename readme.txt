@@ -2,7 +2,7 @@
 Contributors: Ipstenu, JohnnyWhite2007
 Tags: IP, log, register, multisite, wpmu, ip
 Requires at least: 3.1
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.6.1
 Donate link: https://store.halfelf.org/donate/
 
